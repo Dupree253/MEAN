@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bmw {
+  height: 741px;
+}
+
+.cats {
+  height: 300px;
+  width: 300px;
+  margin-left: 350px;
+}
+
+.form {
+  margin-left: 457px;
+}

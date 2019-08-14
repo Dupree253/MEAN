@@ -1,0 +1,12 @@
+<html>
+<body>
+    <h2>EJS Cats:</h2>
+    <img src="/images/maine.png" alt="">
+    <% for (var x in maine) { %>
+        <h3>Favorite Food: <%= maine[x].food %></h3>
+        <h3>Age: <%= maine[x].age %></h3>
+        <h3>Sleeping Spot: <%= maine[x].sleep %></h3>
+        <hr>
+    <% } %>
+</body>
+</html>
